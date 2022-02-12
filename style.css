@@ -65,12 +65,12 @@ h2{
     } 
 #search_sticker{
     position: absolute;
-     left: 1300px;
+     left: 900px;
      top: 400px;
-     width: 62px;
+     width: 36px;
      font-size: 16px;
      padding: 20px; /* Поля */
      background: #0085FF; /* Цвет фона */
      border: 2px solid #0085FF; /* Параметры рамки */
-     border-radius: 30px;    
+     border-radius: 100px;    
     } 

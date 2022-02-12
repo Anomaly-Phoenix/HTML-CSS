@@ -1,44 +1,76 @@
-body {
-  font-family: Georgia;
-  font-size: 16px;
-  margin: 12px;   /* center content */
-  max-width: 800px; /* limit width */
-  line-height: 1.5;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.p{
-  margin: 12px;
-}
-
-h2{
-  font-size: 32px;
-  border-bottom-style: solid;
-  margin: 8px;
-}
-
-.header-title {
-  font-size: 18px;
-  border-bottom-style: none;
-  margin: 10px;
-
-}
-
-
-#header{
-  font-size: 32px;
-  max-width: 400px;
-  margin-top: 32px;
-  text-align: center;
-  margin-bottom: 32px;
-}
-#footer{
-  margin-top: 64px;
-  text-align:center;
-}
-
 h1{
-  font-size: 36px;
-  margin: 0px;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: greenyellow;
 }
+h2{
+    text-align: center;
+    font-size: medium;
+    color:blue;
+}
+#logo{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative; 
+    top: 20px;
+    left: 20px;
+    bottom: 15px;
+}
+#adress{
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    left: 350px;
+    top: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+#phone{
+    position: absolute;
+    width: 170px;
+    height: 21px;
+    left: 350px;
+    top: 55px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+@font-face {
+    font-family: "Roboto";  
+    src: url("Roboto.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+#search{
+     position: absolute;
+     left: 700px;
+     top: 15px;
+     width: 475px;
+     font-size: 16px;
+     padding: 20px; /* Поля */
+     background: #fff; /* Цвет фона */
+     border: 2px solid #0085FF; /* Параметры рамки */
+     border-radius: 100px;    
+    } 
+#search_sticker{
+    position: absolute;
+     left: 1300px;
+     top: 400px;
+     width: 62px;
+     font-size: 16px;
+     padding: 20px; /* Поля */
+     background: #0085FF; /* Цвет фона */
+     border: 2px solid #0085FF; /* Параметры рамки */
+     border-radius: 30px;    
+    } 
